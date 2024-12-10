@@ -1,0 +1,222 @@
+[
+  {
+    "id": "52eef281-6a2d-4617-829b-0efcb2714cb2",
+    "data": [
+      {
+        "text": "how much does ",
+        "userDefined": false
+      },
+      {
+        "text": "100",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " feet of ",
+        "userDefined": false
+      },
+      {
+        "text": "oak",
+        "meta": "@product_name",
+        "alias": "product_name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hardwood",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": true
+      },
+      {
+        "text": " cost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42e373af-761f-49e3-a41d-fb4ebed42817",
+    "data": [
+      {
+        "text": "how much is ",
+        "userDefined": false
+      },
+      {
+        "text": "100",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " feet of ",
+        "userDefined": false
+      },
+      {
+        "text": "marble",
+        "meta": "@product_name",
+        "alias": "product_name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tile",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84f7ce5c-8a4c-4ffb-bd8f-bc33b90712ed",
+    "data": [
+      {
+        "text": "how much is ",
+        "userDefined": false
+      },
+      {
+        "text": "100",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " feet of ",
+        "userDefined": false
+      },
+      {
+        "text": "berber",
+        "meta": "@product_name",
+        "alias": "product_name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "carpet",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96e76509-7cf9-4316-9c46-3d7dd9bcb1f0",
+    "data": [
+      {
+        "text": "How much to install ",
+        "userDefined": false
+      },
+      {
+        "text": "1000",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " square feet of ",
+        "userDefined": false
+      },
+      {
+        "text": "laminate",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fff9fd05-6fac-4f62-8ccf-8e4a479da875",
+    "data": [
+      {
+        "text": "Cost to install ",
+        "userDefined": false
+      },
+      {
+        "text": "750",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " sq ft of ",
+        "userDefined": false
+      },
+      {
+        "text": "bamboo",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e996fcb-6132-49c6-a34b-580b1cfb3ad1",
+    "data": [
+      {
+        "text": "How much to install ",
+        "userDefined": false
+      },
+      {
+        "text": "800",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " sq ft of oak ",
+        "userDefined": false
+      },
+      {
+        "text": "hardwood",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

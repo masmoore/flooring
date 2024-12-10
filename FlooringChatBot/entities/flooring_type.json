@@ -1,0 +1,9 @@
+{
+  "id": "bf76de9c-0ad0-417d-8cb3-10e7e3fb10b8",
+  "name": "flooring_type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

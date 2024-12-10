@@ -1,0 +1,41 @@
+[
+  {
+    "id": "da1213af-47c9-486d-9dc8-b3aa628e5180",
+    "data": [
+      {
+        "text": "What are the available flooring types?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ff66ba0-3779-42b5-9da2-7e54089003e1",
+    "data": [
+      {
+        "text": "Show me all the flooring options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ac0fc18-1395-4946-b20c-847cfb9aa9da",
+    "data": [
+      {
+        "text": "What types of flooring do you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "value": "Hardwood",
+    "synonyms": [
+      "Hardwood",
+      "hard wood"
+    ]
+  },
+  {
+    "value": "Laminate",
+    "synonyms": [
+      "Laminate"
+    ]
+  },
+  {
+    "value": "Bamboo",
+    "synonyms": [
+      "Bamboo"
+    ]
+  },
+  {
+    "value": "Vinyl",
+    "synonyms": [
+      "Vinyl"
+    ]
+  },
+  {
+    "value": "Carpet",
+    "synonyms": [
+      "Carpet",
+      "rug"
+    ]
+  }
+]

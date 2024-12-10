@@ -1,0 +1,48 @@
+[
+  {
+    "id": "cf86e948-81d5-42e0-8523-780e5f7016f4",
+    "data": [
+      {
+        "text": "what are the ",
+        "userDefined": false
+      },
+      {
+        "text": "stone",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": true
+      },
+      {
+        "text": " options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a1c8635-dc72-447f-89c8-47399ed43a68",
+    "data": [
+      {
+        "text": "what kinds of ",
+        "userDefined": false
+      },
+      {
+        "text": "hardwood",
+        "meta": "@flooring_type",
+        "alias": "flooring_type",
+        "userDefined": false
+      },
+      {
+        "text": " do you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
