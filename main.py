@@ -53,27 +53,32 @@ def webhook():
         # Handle the 'installation_cost' intent
         elif intent_name == 'installation_cost':
             flooring_type = req['queryResult']['parameters'].get('flooring_type')
-            size = req['queryResult']['parameters'].get('floor_size')
-            product = flooring_data[flooring_data['Type'].str.lower() == flooring_type.lower()]
-            if not product.empty:
-                product = product.iloc[0]  # Take the first match
-                price_per_sq_ft = product['Price per Sq Ft']
-                install_cost_per_sq_ft = product['Installation Cost per Sq Ft']
+            size = req['queryResult']['parameters'].get('number')  # Corrected parameter name to 'number'
+
+            if flooring_type and size:
+                # Filter flooring data for the specified type
+                product = flooring_data[flooring_data['Type'].str.lower() == flooring_type.lower()]
+        
+                if not product.empty:
+                    product = product.iloc[0]  # Take the first match
+                    price_per_sq_ft = product['Price per Sq Ft']
+                    install_cost_per_sq_ft = product['Installation Cost per Sq Ft']
+
+                # Calculate costs
                 total_material_cost = price_per_sq_ft * size
                 total_install_cost = install_cost_per_sq_ft * size
                 if size < 1000:
                     total_install_cost += 250  # Minimum fee for small areas
+            
                 total_cost = total_material_cost + total_install_cost
                 response = f"The total cost to install {size} sq ft of {flooring_type} flooring is ${total_cost:.2f}."
             else:
                 response = f"Sorry, we don't have information on {flooring_type} flooring."
-
-        # Handle unrecognized intents
         else:
-            response = "I'm sorry, I didn't understand that."
+            response = "Please specify the type of flooring and the area size for installation."
 
-        # Return the response as JSON
         return jsonify({"fulfillmentText": response})
+
 
     except Exception as e:
         print(f"Error processing request: {e}")
