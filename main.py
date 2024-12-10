@@ -35,7 +35,7 @@ def webhook():
         intent_name = req['queryResult']['intent']['displayName']
 
         # Handle the 'list_flooring_options' intent
-        if intent_name == 'list_flooring_options':
+        if intent_name == 'list_flooring_types':
             types = flooring_data['Type'].unique()
             response = f"We offer the following flooring types: {', '.join(types)}."
 
